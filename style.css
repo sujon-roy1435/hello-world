@@ -1,0 +1,129 @@
+*{margin: 0;padding: 0;}
+/*start logo*/
+#logo-name{
+	text-align: center;
+	border: 10px;
+	text-shadow: 6px 2px 5px CornflowerBlue ;
+	border-radius: 1px 2px #147012;
+	font-size: 150px;
+	font-family: Bauhaus 93;
+	text-transform: capitalize;
+	text-shadow: 2px 2px rgba(236, 255, 150 0.1);
+	color: hsl(255,45%,31%);
+	display: inline-block;
+}
+#logo{
+	width:100%;
+	height: 240px;
+	display: block;
+	background-color: #7FF014;
+	box-shadow: 1px 2px 1px Magenta ;
+	position: relative;
+}
+
+#title-show{
+	color: #05f2f9;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+#link{
+	margin: 10px;
+	padding: 15px;
+	clear: both;
+	overflow: hidden;
+	position: sticky;
+	top: 200px;
+	display: block;
+	float: left;
+}
+#link1{
+	color: #7B68EE;
+	font-size: 25px;
+	text-decoration: none;
+}
+#link2{
+	color: #7B68EE;
+	font-size: 25px;
+	text-decoration: none;
+}
+#link3{
+	color: #7B68EE;
+	font-size: 25px;
+	text-decoration: none;
+}
+#link1:hover{
+	color: DodgerBlue ;
+	box-sizing: border-box;
+}
+#link2:hover{
+	color: Crimson  ;
+	box-sizing: border-box;
+}
+#link3:hover{
+	color: GreenYellow ;
+	box-sizing: border-box;
+}
+/*End logo */
+
+/*start dropdwon*/
+#contain{position: sticky;top:-2px;}
+a{
+	text-decoration: none;
+	color: #c2c2c2;
+}
+a:hover{color: #57c;}
+#contain ul{
+	list-style: none;
+	margin: 0px;
+	padding: 2px;
+}
+#contain ul li{
+	width: 110px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #6142bc;
+	float: left;
+	border: 1px solid #b4dafa;
+	position: relative;
+
+}
+#contain ul li:hover{
+	background-color:#6242bc;
+	color: green;
+}
+#contain ul ul{
+	display: none;
+}
+#contain ul li:hover > ul{
+	display: block;
+}
+#contain ul ul ul{
+	margin-left: 110px;
+	top: 5px;
+	display: none;
+	position: absolute;
+}
+#contain ul ul li:hover > ul{
+	display: block;
+}
+#contain ul ul ul ul{
+	margin-left: 100px;
+	top: -100px;
+	display: none;
+	position: absolute;
+}
+#contain ul ul ul li:hover > ul{
+	display: block;
+}
+
+
+
+/*start serial*/
+#serial{
+	margin: 5px;
+	padding: 10px;
+	text-align: right;
+}
